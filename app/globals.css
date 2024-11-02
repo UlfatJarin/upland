@@ -93,7 +93,7 @@
     transform: scale(1) rotate(0);
   }
   50%{
-    transform: scale(1.2) rotate(20deg);
+    transform: scale(1.2) rotate(-20deg);
   }
 }
 .twitter{
@@ -104,7 +104,84 @@
     transform: scale(1) rotate(0);
   }
   50%{
-    transform: scale(1.2) rotate(20deg);
+    transform: scale(1.2) rotate(-20deg);
+  }
+}
+.l1{
+  animation: l1 5s linear infinite;
+}
+@keyframes l1{
+  0%{
+    transform:  rotate(0);
+  }
+  50%{
+    transform: rotate(-3deg);
+  }
+}
+.l2{
+  animation: l2 5s linear infinite;
+}
+@keyframes l2{
+  0%{
+    transform:  rotate(0);
+  }
+  50%{
+    transform: rotate(3deg);
+  }
+}
+.l3{
+  animation: l3 5s linear infinite;
+}
+@keyframes l3{
+  0%{
+    transform:  rotate(0);
+  }
+  50%{
+    transform: rotate(-3deg);
+  }
+}
+.l4{
+  animation: l4 5s linear infinite;
+}
+@keyframes l4{
+  0%{
+    transform:  rotate(0);
+  }
+  50%{
+    transform: rotate(3deg);
+  }
+}
+.l5{
+  animation: l5 5s linear infinite;
+}
+@keyframes l5{
+  0%{
+    transform:  rotate(0);
+  }
+  50%{
+    transform: rotate(5deg);
+  }
+}
+.l6{
+  animation: l6 5s linear infinite;
+}
+@keyframes l6{
+  0%{
+    transform:  scale(1);
+  }
+  50%{
+    transform: scale(1.05);
+  }
+}
+.l7{
+  animation: l7 5s linear infinite;
+}
+@keyframes l7{
+  0%{
+    transform:  scale(1);
+  }
+  50%{
+    transform: scale(1.05);
   }
 }
 /* //////////////////////////////animation///////////////////////////////////////////////////// */

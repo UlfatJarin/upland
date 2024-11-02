@@ -23,7 +23,7 @@ const Banner = () => {
         
                 <Image className='w-full'src={banner} />
         
-        <div className='container grid grid-cols-2 absolute top-0 left-1/2 -translate-x-1/2 '>
+        <div className='container grid grid-cols-2 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 '>
             <div className='my-[257px] '>
                 <p className='p2'>trendy application</p>
                 <h1 className='max-w-[567px] h1'>work faster with powerful tools</h1>

@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --maincolor: #FF6231;
+}
+
+.flexcenter{
+  @apply flex items-center justify-center
+}
+
+.topcenter{
+  @apply flex items-center
+}
+
+.midbetween{
+  @apply flex justify-between
+}
+
+.navli{
+  @apply font-normal text-[19px] text-white
+}

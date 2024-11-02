@@ -7,6 +7,7 @@ import love from '../assets/love.png'
 import mail from '../assets/mail.png'
 import twitter from '../assets/twitter.png'
 import massage from '../assets/massage.png'
+
 import banner from '../assets/banner.png'
 import Image from 'next/image'
 
@@ -24,13 +25,13 @@ const Banner = () => {
                 <Button btntext='Learn more'/>
             </div>
             <div className='relative'>
-                <Image className='absolute top-[117px] left-[46px]' src={phone} />
-                <Image className='absolute top-[337px] left-[35px]' src={plane} />
-                <Image className='absolute top-[246px] left-[110px]' src={love} />
-                <Image className='absolute top-[347px] right-0 translate-x-[19px]' src={like} />
-                <Image className='absolute top-[614px] left-full translate-x-[61px]' src={mail} />
-                <Image className='absolute top-[479px] left-full translate-x-[45px]' src={twitter} />
-                <Image className='absolute top-[278px] left-full translate-x-[59px]' src={massage} />
+                <Image className='phone absolute top-[87px] left-[46px]' src={phone} />
+                <Image className='plane absolute top-[337px] left-[35px]' src={plane} />
+                <Image className='love absolute top-[246px] left-[110px]' src={love} />
+                <Image className='like absolute top-[347px] right-[-19px]' src={like} />
+                <Image className='mail absolute top-[614px] right-[-125px]' src={mail} />
+                <Image className='twitter absolute top-[479px] right-[-105px]' src={twitter} />
+                <Image className='massage absolute top-[278px] right-[-133px]' src={massage} />
             </div>
 
         </div>

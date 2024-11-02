@@ -3,12 +3,12 @@ import Link from 'next/link'
 import React from 'react'
 import logo from '../assets/logo.png'
 import dot from '../assets/dot.png'
-import Button from './Button'
 import { FiSmartphone } from "react-icons/fi";
+import Navbtn from './Navbtn'
 
 const Navber = () => {
     return (
-        <div className=' bg-slate-400 absolute top-[60px] left-1/2 -translate-x-1/2'>
+        <div className='  absolute top-[60px] left-1/2 -translate-x-1/2 z-50'>
             <nav className='w-[1780px] mx-auto  '>
                 <div className='midbetween items-center'>
                     <div className='topcenter gap-[222px]'>
@@ -24,7 +24,7 @@ const Navber = () => {
                         <Image src={dot} />
                         <li className='navli'><Link href='/'>FAQ </Link></li>
                         <Image src={dot} />
-                        <Button btntext='Free trial' />
+                        <Navbtn btntext='Free trial' />
                     </ul>
                     </div>
                     <div className='topcenter'>

@@ -19,7 +19,21 @@
 .midbetween{
   @apply flex justify-between
 }
+.container{
+  @apply max-w-[1140px] mx-auto
+}
 
 .navli{
   @apply font-normal text-[19px] text-white
+}
+
+.h1{
+  @apply font-extrabold text-[80px] leading-[90%] text-white
+}
+.h5{
+  @apply font-medium text-[28px] leading-[110%] text-white
+}
+.p2{
+  @apply font-medium text-xs leading-[170%] text-[#FF6231]
+
 }

@@ -6,9 +6,9 @@ const Title = ({title}) => {
   return (
     <div className=''>
         <Image src={dots} className='mx-auto' />
-        <h2 className={`font-semibold text-[50px] text-black  text-center z-10 relative`}>{title}
+        <h2 className={`font-Darker  font-semibold text-[50px] text-blackc  text-center z-10 relative`}>{title}
             
-        <h2 className={`font-normal text-[40px] text-[#CCCCCC] -z-10 absolute  top-[-10px] left-1/2 -translate-x-1/2`}>{title}</h2>
+        <h2 className={`font-Codystar uppercase font-normal text-[40px] text-secondary -z-10 absolute  top-[-10px] left-1/2 w-full -translate-x-1/2`}>{title}</h2>
         </h2>
         
     </div>

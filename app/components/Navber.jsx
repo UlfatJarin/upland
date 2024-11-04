@@ -28,7 +28,7 @@ const Navber = () => {
                     </ul>
                     </div>
                     <div className='topcenter'>
-                    <FiSmartphone className='text-[#FF6231] w-6 h-6' />
+                    <FiSmartphone className='text-main w-6 h-6' />
                     <p className='navli !font-medium'>+1 742 65 84 122</p>
                     </div>
 

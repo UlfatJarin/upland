@@ -8,6 +8,9 @@
   --maincolor: #FF6231;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Darker+Grotesque:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 .flexcenter{
   @apply flex items-center justify-center
 }
@@ -24,19 +27,20 @@
 }
 
 .navli{
-  @apply font-normal text-[19px] text-white
+  @apply font-Roboto font-normal text-[19px] text-whitec
 }
 
 .h1{
-  @apply font-extrabold text-[80px] leading-[90%] text-white
+  @apply font-Darker font-extrabold text-[80px] leading-[90%] text-whitec
 }
 .h5{
-  @apply font-medium text-[28px] leading-[110%] text-white
+  @apply font-medium text-[28px] leading-[110%] text-whitec
 }
 .p2{
-  @apply font-medium text-xs leading-[170%] text-[#FF6231]
+  @apply font-medium text-xs leading-[170%] text-main
 
 }
+
 /* //////////////////////////////animation///////////////////////////////////////////////////// */
 
 .phone{

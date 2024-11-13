@@ -27,11 +27,8 @@ module.exports = {
         'blackc': '#000000',
         'whitec': '#FFFFFF',
         'main':   '#FF6231',
-        'primary ': '#888888',
+        'primary': '#888888',
         'secondary':'#CCCCCC',
-        
-        
-
       },
     },
   },

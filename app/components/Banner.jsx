@@ -21,7 +21,7 @@ const Banner = () => {
   return (
     <div className='relative'>
         
-                <Image className='w-full'src={banner} />
+                <Image className='w-full' src={banner} />
         
         <div className='container grid grid-cols-2 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 '>
             <div className='my-[257px] '>

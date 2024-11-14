@@ -3,6 +3,7 @@ import Banner from './components/Banner'
 import Title from './components/Title'
 import Services from './components/Services'
 import Application from './components/Application'
+import UIpresentation from './components/UIpresentation'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner/>
       <Services/>
       <Application/>
+      <UIpresentation/>
       
 
     </div>

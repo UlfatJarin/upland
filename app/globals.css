@@ -37,13 +37,13 @@
   @apply font-Darker font-semibold text-[28px] text-blackc 
 }
 .h5{
-  @apply font-medium text-[28px] leading-[110%] text-whitec
+  @apply font-Darker font-medium text-[28px] leading-[110%] text-whitec
 }
 .p2{
-  @apply font-medium text-xs leading-[170%] text-main
+  @apply  font-medium text-xs leading-[170%] text-main
 }
 .p3{
-  @apply font-Roboto font-medium  text-base text-primary 
+  @apply font-Roboto font-medium  text-base text-textcolor
 }
 
 

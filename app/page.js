@@ -4,6 +4,7 @@ import Title from './components/Title'
 import Services from './components/Services'
 import Application from './components/Application'
 import UIpresentation from './components/UIpresentation'
+import Download from './components/Download'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Services/>
       <Application/>
       <UIpresentation/>
+      <Download/>
       
 
     </div>

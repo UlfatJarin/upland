@@ -40,12 +40,20 @@
   @apply font-Darker font-medium text-[28px] leading-[110%] text-whitec
 }
 .p2{
-  @apply  font-medium text-xs leading-[170%] text-main
+  @apply font-Roboto  font-medium text-xs leading-[170%] text-main capitalize
 }
 .p3{
   @apply font-Roboto font-medium  text-base text-textcolor
 }
-
+.p4{
+  @apply font-Roboto font-normal  text-base text-textcolor
+}
+.btn{
+  @apply font-Roboto font-medium text-base text-whitec 
+}
+.price{
+  @apply font-Roboto font-medium text-[32px] text-blackc 
+}
 
 /* //////////////////////////////animation///////////////////////////////////////////////////// */
 

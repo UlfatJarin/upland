@@ -8,6 +8,8 @@ import Download from './components/Download'
 import AboutUs from './components/AboutUs'
 import Trial from './components/Trial'
 import QuesAns from './components/QuesAns'
+import Articels from './components/Articels'
+import Footer from './components/Footer'
 
 const Home = () => {
   return (
@@ -20,6 +22,8 @@ const Home = () => {
       <AboutUs/>
       <Trial/>
       <QuesAns/>
+      <Articels/>
+      <Footer/>
       
 
     </div>

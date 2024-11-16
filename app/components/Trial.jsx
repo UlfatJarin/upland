@@ -6,12 +6,10 @@ import Image from 'next/image'
 const Trial = () => {
   return (
     <div className='relative'>
-        <Image className='aboslute -z-50' src={aboutbg}/>
         <div className='container my-[160px]'>
-        
-        <Image className='mx-auto' src={trail} />
-    </div>
-
+          <Image className='mx-auto ' src={trail} />
+        </div>
+        <Image className='absolute w-full -z-50 top-[-200px] left-0' src={aboutbg}/>
     </div>
   )
 }

@@ -22,7 +22,7 @@ const AboutUs = () => {
                 <div>2</div>
                 <div>3</div>
             </Slider> */}
-            <div className='px-10 py-8 max-w-[480px] rounded-[20px]'>
+            <div className='px-10 py-8 max-w-[480px] rounded-[20px] bg-whitec'>
                 <Image src={about} />
                 <p className='p4 mt-4 mb-8'>“Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat.”</p>
                 <div className='topcenter'>

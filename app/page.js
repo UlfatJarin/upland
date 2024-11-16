@@ -7,6 +7,7 @@ import UIpresentation from './components/UIpresentation'
 import Download from './components/Download'
 import AboutUs from './components/AboutUs'
 import Trial from './components/Trial'
+import QuesAns from './components/QuesAns'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Download/>
       <AboutUs/>
       <Trial/>
+      <QuesAns/>
       
 
     </div>

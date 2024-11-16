@@ -14,7 +14,7 @@ const Application = () => {
             <Image src={application}/>
         </div>
         <div className='max-w-[457px]'>
-            <Title className='!text-left max-w-[457px]' className2='mx-0' title='The most popular application 2021'/>
+            <Title className='!text-left max-w-[457px]' className2='!mx-0' title='The most popular application 2021'/>
             <h5 className='h5 !text-textcolor my-7'>Culpa non ex tempor qui nulla laborum. Laboris culpa ea incididunt dolore ipsum.</h5>
             <div className='flex flex-col gap-5' >
               <P  point='Elit mollit aliqua quis ad sint nulla Lorem commodo reprehenderit.'><FaRegCheckCircle className='text-main' /></P>

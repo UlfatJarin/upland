@@ -16,6 +16,8 @@ import l6 from '../assets/L6.png'
 import l7 from '../assets/L7.png'
 import banner from '../assets/banner.png'
 import Image from 'next/image'
+import { GoDotFill } from "react-icons/go";
+
 
 const Banner = () => {
   return (
@@ -25,7 +27,11 @@ const Banner = () => {
         
         <div className='container grid grid-cols-2 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 '>
             <div className='my-[257px] '>
-                <p className='p2'>trendy application</p>
+                <div className='topcenter gap-1'>
+                <GoDotFill className='text-main text-[8px]' />
+                <GoDotFill className='text-main text-[8px]' />
+                <p className='p2 ml-3'>trendy application</p>
+                </div>
                 <h1 className='max-w-[567px] h1'>work faster with powerful tools</h1>
                 <h5 className='max-w-[497px] h5 mt-7 mb-12'>Laboris culpa ea incididunt dolore ipsum tempor duis do ullamco eiusmod officia magna ad id.</h5>
                 <Button btntext='Learn more'/>

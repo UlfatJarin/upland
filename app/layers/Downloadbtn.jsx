@@ -8,7 +8,7 @@ const Downloadbtn = ({href, text1,text2,children,className}) => {
         <div>
         {children}
         </div>
-        <p className='btn !text-[10px]'>{text1}<br/><span className='!text-[14px]'>{text2}</span></p>
+        <p className='btn !text-[10px] '>{text1}<br/><span className='!text-[14px] uppercase'>{text2}</span></p>
              
        
     </div>
